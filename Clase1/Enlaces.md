@@ -1,4 +1,4 @@
-### Enlaces para la clase 
+### Enlaces para la clase 1
 
 #### 1. Tipos de aprendizaje
 
