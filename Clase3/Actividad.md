@@ -18,7 +18,7 @@ Se permite usar Copilot o ChatGPT para:
 Usen como apoyo:
 
 * **[The Annotated Transformer (Harvard)](https://nlp.seas.harvard.edu/annotated-transformer/)** 
-* y la lectura breve del artículo **"Attention Is All You Need"**/resumen trabajado en clase.
+* y la lectura breve del artículo [**"Attention Is All You Need"**](https://github.com/kapumota/CMCC-1/blob/main/Clase3/Resumen_Attention_Is_All_You_Need.pdf), resumen trabajado en clase.
 
 > En el material de apoyo ya se usa explícitamente The Annotated Transformer como referencia de implementación y explicación del flujo del modelo.  
 
