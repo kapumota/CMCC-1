@@ -1,4 +1,4 @@
-### Enlaces para la clase 6
+### Enlaces para la clase 5
 
 #### 1. De convoluciones a Vision Transformers (ViT): motivación y esquema general
 
