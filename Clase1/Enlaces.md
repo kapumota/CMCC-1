@@ -13,6 +13,9 @@
   * **SimCLR (contrastive learning):** ([Proceedings of Machine Learning Research][6])
   * **BERT (pretraining):** arXiv ([arXiv][7]) / ACL Anthology ([aclanthology.org][8])
 
+* (Opcional) [LLM Embeddings Explained:
+A Visual and Intuitive Guide](https://huggingface.co/spaces/hesamation/primer-llm-embedding)
+
 #### 2. Pipeline típico de ML (datos -> modelo -> evaluación -> despliegue)
 
 
