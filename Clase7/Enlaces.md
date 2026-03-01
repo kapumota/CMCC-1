@@ -10,7 +10,7 @@
 #### 2. Métodos básicos: Q-learning y Policy Gradient (visión general)
 
 * **Q-learning (Watkins & Dayan, 1992)**: paper clásico (idea central y convergencia). ([Springer][4])
-* **REINFORCE / Policy Gradient (Williams, 1992)**: gradiente de política clásico. ([UMass PDF][5])
+* **REINFORCE/Policy Gradient (Williams, 1992)**: gradiente de política clásico. ([UMass PDF][5])
 * **Spinning Up - Intro to Policy Optimization**: explicación moderna de policy gradients. ([Spinning Up][6])
 * **TRPO (2015) y PPO (2017)**: estabilidad práctica en optimización de políticas (trust region/clipped objective). ([TRPO arXiv][7])
 
@@ -37,7 +37,7 @@
 
 #### 4) Conexión RL-LLM: RLHF como RL sobre recompensas humanas
 
-* **InstructGPT (OpenAI, 2022)**: pipeline SFT → reward model → RLHF. ([OpenAI PDF][17])
+* **InstructGPT (OpenAI, 2022)**: pipeline SFT -> reward model -> RLHF. ([OpenAI PDF][17])
 * **Deep RL from Human Preferences (2017)**: recompensa aprendida desde preferencias humanas. ([arXiv][18])
 * **Learning to summarize with human feedback (OpenAI, 2020)**: caso de estudio RLHF en NLP. ([OpenAI][19])
 * **Hugging Face - Illustrating RLHF**: explicación accesible + ecosistema open-source. ([HF Blog][20])
