@@ -249,8 +249,4 @@ La evaluación prioriza:
 
 Cada estudiante debe subir **su propio archivo ZIP individual**. Incluso si el trabajo se realizó en grupo.
 
-La fecha límite es:
-
-**15 de marzo - 12:00 del mediodía**
-
-No se aceptarán entregas fuera del horario establecido.
+La fecha límite es: **15 de marzo - 12:00 del mediodía**. No se aceptarán entregas fuera del horario establecido.
