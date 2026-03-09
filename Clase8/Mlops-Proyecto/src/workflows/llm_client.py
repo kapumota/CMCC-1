@@ -41,7 +41,7 @@ class LLMClient:
 
     def _fallback(self, system: str, user: str) -> str:
         # Respuesta deterministic/plantilla para correr offline
-        # (Sesión 8: el foco es pipeline + ops, no “calidad de lenguaje”)
+        # (Sesión 8: el foco es pipeline + ops, no "calidad de lenguaje")
         return (
             "Resumen (fallback local):\n"
             f"- Objetivo: {user[:140]}{'...' if len(user)>140 else ''}\n"
