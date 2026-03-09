@@ -7,7 +7,6 @@ import httpx
 
 from config.settings import Settings
 
-
 class LLMClient:
     """Cliente para un endpoint OpenAI-compatible /v1/chat/completions (opcional)."""
 
