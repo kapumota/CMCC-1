@@ -8,7 +8,6 @@ import joblib
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-
 @dataclass
 class TfidfIndex:
     vectorizer: TfidfVectorizer
@@ -40,7 +39,7 @@ class TfidfIndex:
         return TfidfIndex(vectorizer=vectorizer, matrix=matrix, chunks=chunks, chunk_ids=chunk_ids)
 
     def query(self, text: str, top_k: int = 3) -> List[Tuple[str, str, float]]:
-        # returns (chunk_id, chunk_text, score)
+        # retorna (chunk_id, chunk_text, score)
         q = self.vectorizer.transform([text])
         scores = (self.matrix @ q.T).toarray().ravel()
         if len(scores) == 0:
