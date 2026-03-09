@@ -6,7 +6,6 @@ from config.settings import Settings
 from observability.metrics import RAG_QUERIES_TOTAL
 from rag.index import TfidfIndex
 
-
 class Retriever:
     def __init__(self, settings: Settings):
         self.settings = settings
