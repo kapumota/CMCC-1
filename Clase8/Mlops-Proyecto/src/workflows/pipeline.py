@@ -10,7 +10,6 @@ from workflows.nodes import parse_request
 from tools.providers.provider_bootstrap import travel_provider, supported_locations
 from workflows.nodes import flight_lookup, hotel_lookup
 
-
 SYSTEM_PROMPT = """Eres un asistente que sintetiza un plan de viaje.
 Usa el contexto RAG si es relevante y resume en bullets. Evita información inventada."""
 
@@ -43,7 +42,7 @@ async def run_workflow(settings: Settings, retriever: Retriever, llm: LLMClient,
     else:
         errors.append("No pude identificar ciudad de hotel (ej: New York, Seattle).")
 
-    # Compose a summary via LLM (optional) or fallback
+    # Compose a summary via LLM (optional) o fallback
     user_for_llm = (
         f"Solicitud: {user_text}\n\n"
         f"Contexto RAG (top {settings.top_k}):\n" +
