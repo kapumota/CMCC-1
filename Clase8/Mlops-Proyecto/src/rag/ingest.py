@@ -19,7 +19,6 @@ def _read_docs(docs_dir: Path) -> list[tuple[str, str]]:
 
 
 def _chunk(text: str, max_chars: int = 700) -> list[str]:
-    # chunk by paragraphs; then merge small ones.
     paras = [t.strip() for t in text.split("\n\n") if t.strip()]
     chunks: list[str] = []
     buf = ""
