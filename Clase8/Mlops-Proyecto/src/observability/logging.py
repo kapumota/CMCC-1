@@ -6,7 +6,6 @@ import sys
 from datetime import datetime
 from typing import Any
 
-
 class JsonFormatter(logging.Formatter):
     def format(self, record: logging.LogRecord) -> str:
         payload: dict[str, Any] = {
@@ -17,7 +16,7 @@ class JsonFormatter(logging.Formatter):
         }
         if record.exc_info:
             payload["exc_info"] = self.formatException(record.exc_info)
-        # Extra common fields if present
+        # Campos comunes adicionales si están presentes
         for k in ("request_id", "route", "latency_ms"):
             if hasattr(record, k):
                 payload[k] = getattr(record, k)
@@ -31,6 +30,6 @@ def setup_logging(level: int = logging.INFO) -> None:
     handler = logging.StreamHandler(sys.stdout)
     handler.setFormatter(JsonFormatter())
 
-    # Avoid duplicate handlers in reload
+    # Evita controladores duplicados en la recarga
     root.handlers.clear()
     root.addHandler(handler)
