@@ -7,7 +7,6 @@ from typing import Any
 from observability.metrics import TOOL_CALLS_TOTAL
 from tools.providers.provider_bootstrap import travel_provider, supported_locations
 
-
 @dataclass
 class ParsedRequest:
     departure_airport: str | None
@@ -15,14 +14,13 @@ class ParsedRequest:
     hotel_city: str | None
     num_options: int
 
-
 def parse_request(text: str) -> ParsedRequest:
-    # Airports: tokens like LAX, JFK, etc.
+    # Airports: tokens como LAX, JFK, etc.
     airports = re.findall(r"\b[A-Z]{3}\b", text)
     dep = airports[0] if len(airports) >= 1 else None
     dst = airports[1] if len(airports) >= 2 else None
 
-    # Hotel city: heuristic over known cities (Sesión 8: luego se reemplaza por extracción con LLM)
+    # Hotel city: heuristica sobre ciudades conocidas (Sesión 8: luego se reemplaza por extracción con LLM)
     hotel_city = None
     for c in supported_locations.get("hotel_cities", []):
         if c.lower() in text.lower():
