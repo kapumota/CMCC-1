@@ -27,7 +27,7 @@
 
 #### 5. Difusión para imágenes y más allá: texto, audio, datos científicos
 
-* **CLIP: correlación entre texto e imágenes (OpenAI)** (alineamiento texto–imagen; base para condicionamiento/evaluación). ([OpenAI][13])
+* **CLIP: correlación entre texto e imágenes (OpenAI)** (alineamiento texto-imagen; base para condicionamiento/evaluación). ([OpenAI][13])
 * **open_clip (MLFoundations)** (implementación abierta de CLIP; útil para experimentos). ([GitHub][14])
 * **CLAP (LAION)** (alineamiento audio-texto; puente natural para difusión en audio). ([GitHub][15])
 * **HEIM / HELM (Stanford CRFM)** (marco para evaluar modelos multimodales/generativos en distintos escenarios). ([Stanford CRFM][5])
@@ -41,7 +41,7 @@
 
 #### 7. Evaluación práctica (para reportes y comparaciones en clase)
 
-* **Hugging Face Diffusers – Evaluation** (métricas/consideraciones para evaluar modelos de difusión). ([Hugging Face Docs][4])
+* **Hugging Face Diffusers - Evaluation** (métricas/consideraciones para evaluar modelos de difusión). ([Hugging Face Docs][4])
 * **HEIM / HELM (Stanford CRFM)** (comparación sistemática de modelos multimodales/generativos). ([Stanford CRFM][5])
 * **EDM (Elucidating...)** (trade-offs calidad/velocidad; decisiones de diseño). ([arXiv][10])
 
@@ -52,7 +52,7 @@
 3. **DDPM + DDIM** -> fundamentos + aceleración del muestreo. ([7], [9])
 4. **EDM + Schedules/Steps Flawed** -> discusión moderna de schedules/samplers. ([10], [11])
 5. **DiT** -> Transformers en difusión. ([16])
-6. **CLIP + open_clip + CLAP** -> condicionamiento multimodal (texto–imagen/audio–texto). ([13], [14], [15])
+6. **CLIP + open_clip + CLAP** -> condicionamiento multimodal (texto-imagen/audio-texto). ([13], [14], [15])
 7. **Diffusers Evaluation + HEIM/HELM** -> evaluación y comparación de sistemas. ([4], [5])
 
 [1]: https://lilianweng.github.io/posts/2021-07-11-diffusion-models/ "What are Diffusion Models? (Lilian Weng)"
