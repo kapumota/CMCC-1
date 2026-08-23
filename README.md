@@ -1,6 +1,6 @@
 ### Introducción a la Inteligencia Artificial
 
-Este es un curso corto de nivel introductorio para estudiantes que inician una maestría en Ciencia de la Computación, con una visión integrada de la IA moderna: aprendizaje automático, aprendizaje profundo, transformers, LLM, modelos generativos, visión computacional, aprendizaje por refuerzo y MLOps. 
+Este es el repositorio de un curso corto de nivel introductorio para estudiantes que inician una maestría en Ciencia de la Computación, con una visión integrada de la IA moderna: aprendizaje automático, aprendizaje profundo, transformers, LLM, modelos generativos, visión computacional, aprendizaje por refuerzo y MLOps. 
 
 El curso tiene una orientación conceptual con ejemplos y minidemostraciones en Python. 
 
